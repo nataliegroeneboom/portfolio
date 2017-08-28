@@ -1,0 +1,160 @@
+body{
+  background-color:#9999ff;
+}
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.nat{
+	-webkit-box-shadow: 0px 3px 3px 1px;
+	-moz-box-shadow: 0px 3px 3px 1px;
+	box-shadow:0px 3px 3px 1px;
+  height:75px;
+}
+li a{
+  color:white;
+  font-size:180%;
+}
+.navbar-brand{
+ margin:1%;
+  padding:1%;
+font-size:38px;
+line-height:30px;  
+}
+
+.content{
+  max-width:1000px;
+  background-color:#f2f2f2;
+  margin-bottom:40px;
+	-webkit-box-shadow: -2px 3px 3px 1px #4d4d4d;
+	-moz-box-shadow: -2px 3px 3px 1px #4d4d4d;
+	box-shadow: -2px 3px 3px 1px #4d4d4d;
+}
+
+
+/* About Section */
+#about{
+	padding-top:40px;
+	margin-bottom:60px;
+	margin-top:60px;
+	
+	
+}
+h1{
+	text-align:center;
+}
+.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+#profile-pic{
+	display:inline-block;
+}
+
+/* Portfolio Content */
+
+figure{
+  display:inline-block;
+  border:2px solid grey;
+  -webkit-box-shadow: 0 4px 3px #4d4d4d;
+	-moz-box-shadow: 0 4px 3px #4d4d4d;
+	box-shadow: 0 4px 3px #4d4d4d;
+}
+
+figure figcaption{
+  text-align:center;
+}
+rose-img{
+	width:130%;
+	height:300px;
+}
+/* Form Content */
+.formContact{
+	padding-bottom:40px;
+}
+input::-webkit-input-placeholder {
+text-transform: uppercase;
+  font-size:150%;
+  margin-top:3%;  
+}
+
+
+input::-moz-placeholder {
+	text-transform: uppercase;
+  font-size:150%;
+  margin-top:3%;
+}
+input:-moz-placeholder {   /* Older versions of Firefox */
+	text-transform: uppercase;
+  font-size:150%;
+  margin-top:3%;
+}
+input:-ms-input-placeholder { 
+	text-transform: uppercase;
+  font-size:150%;
+  margin-top:3%;
+}
+textarea::-webkit-input-placeholder {
+	text-transform: uppercase;
+  font-size:150%;
+}
+textarea::-moz-placeholder {
+	text-transform: uppercase;
+  font-size:150%;
+}
+textarea:-moz-placeholder {   /* Older versions of Firefox */
+	text-transform: uppercase;
+  font-size:150%;
+}
+textarea::-ms-input-placeholder { 
+	text-transform: uppercase;
+  font-size:150%;
+}
+button.submit{
+  font-size:150%;
+}
+
+
+
+
+/* Footer Content */
+
+footer{
+	clear:both;
+	min-height:10rem;
+	background-color:#000000;
+}
+
+.btn-social span{
+	color:white;
+	font-size:450%;
+}
+.btn-social span:hover{
+	color:black;
+  background-color:white;
+  padding:2px 8px;
+  border-radius:4px;
+}
+
+h4{
+  color:white;
+  line-width:2rem;
+  text-align:center;
+}
+
+
+
+@media (min-width:992px){
+figure{
+ margin:18px;
+}
+
+#about{
+	padding-top:80px;
+}
+.right-about{
+	margin-top:50px;
+	
+	
+}	
+}

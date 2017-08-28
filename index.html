@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width initial-scale=1" >
+  <head>
+    <title>Personal Portfolio Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Amiko|Istok+Web|Maven+Pro|Philosopher|Poppins|Ruda|Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel= "stylesheet" href= "portfolio.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--JQuery-->
+    <script type="text/javascript">
+      $(document).ready(function(){
+		var windowObjRef=null;
+         function openPopup(winHref, winTarget){
+          	if(windowObjRef==null||windowObjRef.closed){
+					windowObjRef = window.open(winHref,winTarget,"resizable,scrollbars,status")
+			}else{
+				windowObjRef.focus();
+			}
+		
+      
+           
+         };                     
+      });
+     
+    </script>
+  </head>
+	<body>
+    <!--Navigation Bar-->
+    <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top nat">
+        <div class="container-fluid navnat">
+          <div class = "navbar-header">          
+             <button type = "button" class= "navbar-toggle" data-toggle= "collapse" data-target ="#NavBar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>      
+            <a class="navbar-brand brand" href="#">GreenTrees Design</a>         
+           </div>
+                                          
+            <div class="collapse navbar-collapse " id="NavBar">
+              <ul class="nav nav-pills nav-justified" >
+                <li><a href="#About">About</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+              </ul>
+            </div>                                     
+            </div>
+        </nav>
+      </header>
+	  <div class= "container content">
+	  <a name="About"></a>
+		<div class = "row" id="about">
+		
+		<div class= "col-sm-7 col-md-7 col-lg-8 right-about">
+        <hr class="style-two" />  
+        <h3>Trainee Front-End Developer and artist who has gained the FreeCodeCamp Front End Certificate.  The links to the FCC projects are below. </h3>
+        <hr class="style-two" />    
+        </div>  
+	<!--About Left Column-->
+        <div class = "col-sm-5 col-md-5 col-lg-4 left-about" >
+           <img src = "https://c2.staticflickr.com/6/5749/30169582160_e9da1b3b46_n.jpg" alt="profile picture" class = "img-responsive center-block" id="profile-pic">
+        </div>
+		</div>
+	  </div>
+	  
+	  <!-- Portfolio Section -->
+	  <div class= "container-fluid content">
+	  <a name= "Portfolio"></a>
+		<div class="row portfolio">
+		<h1>Portfolio</h1>
+		<div class= "rose-container col-md-6 center-block" >
+		<figure class= "rose">
+		<a href="https://nataliegroeneboom.github.io/localweather/" target="weather" onclick="openPopup(this.href, this.target); return false"
+			title="should open new window or reuse already opened one" width="350" height="250">
+         <img src="Capture_weather.jpg" class="img-responsive rose-img">
+           <figcaption>Local Weather App</figcaption> 
+		 </a>  
+         </figure> 
+		 </div>
+		 <div class= "rose-container col-md-6 center-block" >
+      <figure class= "rose">
+	  <a href="https://nataliegroeneboom.github.io/randomQuotes/" target="quote" onclick="openPopup(this.href, this.target); return false"
+			title="should open new window or reuse already opened one" width="350" height="250">
+         <img src="Capture_quote.jpg" class="img-responsive rose-img" />
+           <figcaption>Random Quote Generator</figcaption> 
+		   </a>
+      </figure>
+		</div>
+		<div class= "col-md-1"></div>
+		</div>
+		<div class="row portfolio">
+		<div class="col-md-6">
+      <figure class= "rose">
+	  <a href="https://nataliegroeneboom.github.io/wikipedia/" target="wikipedia" onclick="openPopup(this.href, this.target); return false"
+			title="should open new window or reuse already opened one" width="350" height="250">
+        <img src="Capture_wikipedia.jpg"class="img-responsive rose-img">
+        <figcaption><figcaption>
+		</a>
+       </figure>
+		</div>
+		<div class="col-md-6">
+       <figure class= "rose">
+		<a href="https://nataliegroeneboom.github.io/calculator/" target="calculator" onclick="openPopup(this.href, this.target); return false"
+			title="should open new window or reuse already opened one" width="350" height="250">	   
+        <img src="Capture_calculator.jpg" class="img-responsive rose-img">
+         <figcaption></figcaption>
+		 </a>
+        </figure>
+		</div>
+		</div>
+		<div class="row portfolio">
+		<div class="col-md-6">
+        <figure class= "rose" >
+		<a href="https://nataliegroeneboom.github.io/TicTacToe/" target="TicTacToe" onclick="openPopup(this.href, this.target); return false"
+			title="should open new window or reuse already opened one" width="350" height="250">
+      <img src="Capture.jpg" class=" rose-img" width="350" height="250" class="img-responsive" >
+        <figcaption>Tic Tac Toe Game</figcaption>
+		</a>
+        </figure> 
+		</div>
+		<div class="col-md-6">
+        <figure class= "rose">
+		<a href="https://nataliegroeneboom.github.io/twitch/" target="Twitch" onclick="openPopup(this.href, this.target); return false"
+			title="should open new window or reuse already opened one" width="350" height="250">
+      <img src="Capture_twitch.jpg"class="img-responsive rose-img">
+        <figcaption>Twitch</figcaption>
+		</a>
+        </figure>
+				</div>
+			</div>
+		<div class="row portfolio">
+		<div class="col-md-6">
+        <figure class= "rose" >
+		<a href="https://nataliegroeneboom.github.io/Simon/" target="Simon" onclick="openPopup(this.href, this.target); return false"
+			title="should open new window or reuse already opened one" width="350" height="250">
+      <img src="Capture_simon.jpg" class=" rose-img" width="350" height="250" class="img-responsive" >
+        <figcaption>Simon</figcaption>
+		</a>
+        </figure> 
+		</div>
+		<div class="col-md-6">
+        <figure class= "rose">
+		<a href="https://nataliegroeneboom.github.io/pomodoro/" target="Pomodoro Clock" onclick="openPopup(this.href, this.target); return false"
+			title="should open new window or reuse already opened one" width="350" height="250">
+      <img src="Capture_pomodoro.jpg"class="img-responsive rose-img">
+        <figcaption>Pomodoro Clock</figcaption>
+		</a>
+        </figure>
+				</div>
+			</div>
+		</div>
+	  
+	  <h1>Contact Me!</h1>
+	  <a name= "Contact"></a>
+	  <form>
+	  <div class="container-fluid formContact">
+    
+      
+      
+      <input type = "text" name="fullname" class="form-control" placeholder="Name"><br /> 
+        <input type = "text" name= "email" class="form-control" placeholder="Email Address"><br />
+        <textarea type="text" class="form-control" rows="4" placeholder="Message"></textarea><br />
+        <button class="btn btn-default submit" type="submit">Submit</button><br />
+		
+		</div>
+	</form>
+		
+		
+	  
+	  
+	  
+	  
+	  <footer>
+	  <div class= "container-fluid">
+	  <div class= "row">
+    <div class="col-sm-4 social-med"> 
+        <a class="btn btn-block btn-social btn-linkedin" href="https://www.linkedin.com/in/natalie-groeneboom-07110351/" target= "_blank" class="newWindow" data-popup="width=300,height=500">
+        <span class="fa fa-linkedin"></span> 
+          </a>
+       </div>
+          <div class="col-sm-4 social-med">
+       <a class="btn btn-block btn-social btn-github" href=# class="newWindow" target= "_blank" data-popup="width=300,height=500">
+        <span class="fa fa-github"></span> 
+         </a>
+       </div>
+       <div class="col-sm-4">
+      <a class="btn btn-block btn-social btn-flickr" href=# target= "_blank">
+        <span class="fa fa-flickr"></span> 
+       </a>
+       </div>
+	   </div>
+	   <h4>Coded and Created by Natalie Groeneboom</h4>
+	   </div>
+	  
+	  </footer>
+	  
+	</body>
+  </html>
+  
